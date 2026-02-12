@@ -1,0 +1,24 @@
+.container {
+  padding: 30px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.card {
+  padding: 25px;
+  background: white;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
