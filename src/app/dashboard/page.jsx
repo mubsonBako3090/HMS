@@ -1,4 +1,5 @@
-        import styles from './dashboard.module.css';
+'use client';
+import styles from './dashboard.module.css';
 import Link from 'next/link';
 
 export default function Dashboard() {
